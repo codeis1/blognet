@@ -11,28 +11,28 @@ const Navbar = () => {
       <div className={styles.social}>
         <Image
           className={styles.socialImg}
-          src="/facebook.png"
+          src="./facebook.png"
           alt="facebook"
           width={24}
           height={23}
         />
         <Image
           className={styles.socialImg}
-          src="/instagram.png"
+          src="./instagram.png"
           alt="instagram"
           width={24}
           height={23}
         />
         <Image
           className={styles.socialImg}
-          src="/tiktok.png"
+          src="./tiktok.png"
           alt="tiktok"
           width={24}
           height={23}
         />
         <Image
           className={styles.socialImg}
-          src="/youtube.png"
+          src="./youtube.png"
           alt="youtube"
           width={24}
           height={23}

@@ -8,7 +8,7 @@ const Footer = () => {
     <div className={styles.container}>
       <div className={styles.info}>
         <div className={styles.logo}>
-          <Image className={styles.logoImg} src="/blognetlogo.png" alt="Net blog" width={50} height={50} />
+          <Image className={styles.logoImg} src="./blognetlogo.png" alt="Net blog" width={50} height={50} />
           <h1 className={styles.logoText}>Blognet</h1>
         </div>
         <p className={styles.desc}>
@@ -17,10 +17,10 @@ const Footer = () => {
           minim veniam, quis nostrud.
         </p>
         <div className={styles.icons}>
-          <Image className={styles.socialImg} src="/facebook.png" alt="" width={18} height={18} />
-          <Image className={styles.socialImg} src="/instagram.png" alt="" width={18} height={18} />
-          <Image className={styles.socialImg} src="/tiktok.png" alt="" width={18} height={18} />
-          <Image className={styles.socialImg} src="/youtube.png" alt="" width={18} height={18} />
+          <Image className={styles.socialImg} src="./facebook.png" alt="" width={18} height={18} />
+          <Image className={styles.socialImg} src="./instagram.png" alt="" width={18} height={18} />
+          <Image className={styles.socialImg} src="./tiktok.png" alt="" width={18} height={18} />
+          <Image className={styles.socialImg} src="./youtube.png" alt="" width={18} height={18} />
         </div>
       </div>
       <div className={styles.links}>
