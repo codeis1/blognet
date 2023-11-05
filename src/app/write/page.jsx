@@ -104,7 +104,7 @@ const WritePage = () => {
       {/*TODO:ADD CATEGORY */}
       <div className={styles.editor}>
         <button className={styles.button} onClick={() => setOpen(!open)}>
-          <Image src="/plus.png" alt="" width={16} height={16} />
+          <Image src="./plus.png" alt="" width={16} height={16} />
         </button>
         {open && (
           <div className={styles.add}>
@@ -117,14 +117,14 @@ const WritePage = () => {
 
             <button className={styles.addButton}>
               <label htmlFor="image">
-                <Image src="/image.png" alt="" width={16} height={16} />
+                <Image src="./image.png" alt="" width={16} height={16} />
               </label>
             </button>
             <button className={styles.addButton}>
-              <Image src="/external.png" alt="" width={16} height={16} />
+              <Image src="./external.png" alt="" width={16} height={16} />
             </button>
             <button className={styles.addButton}>
-              <Image src="/video.png" alt="" width={16} height={16} />
+              <Image src="./video.png" alt="" width={16} height={16} />
             </button>
           </div>
         )}
